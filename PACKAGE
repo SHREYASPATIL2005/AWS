@@ -20,4 +20,41 @@ git push -u origin main
 
 
 -------------------------EXP 3----------------------
+nano hello.sh
+echo "Hello, Welcome to Shell Scripting!"
+Ctrl + X -> Y -> Enter
+chmod +x hello.sh
+./hello.sh
+
+
+ nano calculator.sh
+#!/bin/bash
+echo "Enter two numbers:"
+read a
+read b
+echo "Sum = $(($a + $b))"
+Ctrl + X -> Y -> Enter
+chmod +x calculator.sh
+
+ubuntu@ip-172-31-18-249:~$ ./calculator.sh
+Enter two numbers:
+11
+2
+Sum = 13
+
+nano backup.sh
+#!/bin/bash
+cp myfile.txt myfile_backup.txt
+echo "Backup Created !"
+Ctrl + X -> Y -> Enter
+nano myfile.txt
+echo "Hello"
+Ctrl + X -> Y -> Enter
+chmod +x backup.sh
+./backup.sh
+cat backup.sh
+ls
+cat  myfile_backup.txt
+
+---------------------------EXP 4-------------------------------
 
