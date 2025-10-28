@@ -140,7 +140,7 @@ Part B: Cron Job
 1.Open crontab for editing
 crontab -e
 
-2.Add this line at the end
+2.Add this line at the end  ( use pwd & note down the path )
 
 * * * * * /usr/bin/python3 /full/path/to/myscript.py - 
 Replace /full/path/to/myscript.py with the absolute path of your script.
