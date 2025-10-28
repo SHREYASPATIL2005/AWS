@@ -1,0 +1,23 @@
+--------------------------EXP 1 --------------------------------------
+nano exp1.py
+print("Welcome to Cloud Shell Shreyas Patil !")
+Ctrl + X -> Y -> Enter
+python3 exp1.py
+
+-------------------------EXP 2-------------------------------------
+
+mkdir Shreyas-Dev
+cd Shreyas-Dev
+git init
+echo "Hello Shreyas 1" > hello.txt
+git add hello.txt
+git remote add origin https://github.com/SHREYASPATIL2005/PRACTICALEXAM.git
+git branch -M main
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "Merged master changes into main"
+git push -u origin main
+
+
+-------------------------EXP 3----------------------
+
